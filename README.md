@@ -1,213 +1,129 @@
+![Prabhat Kulkarni — Digital Design, Embedded Systems, Edge AI](assets/profile-header.svg)
+
 <div align="center">
 
-# PRABHAT KULKARNI
+**ECE Undergraduate · NIT Goa**
 
-### Electronics & Communication Engineering · Digital Design · Embedded Systems · Edge AI
-
-**NIT Goa**
-
-<p>
-  <a href="https://github.com/prabhatkulkarni"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
-  <a href="https://github.com/prabhatkulkarni?tab=repositories"><img src="https://img.shields.io/badge/Projects-1f6feb?style=for-the-badge&logo=github&logoColor=white" alt="Projects"></a>
-</p>
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/prabhatkulkarni)
+[![Digital Design](https://img.shields.io/badge/Focus-Digital%20Design-2563eb?style=flat-square)](https://github.com/prabhatkulkarni/DSD_verilog)
+[![Edge AI](https://img.shields.io/badge/Focus-Edge%20AI-0f766e?style=flat-square)](https://github.com/prabhatkulkarni/SIH-DFNet3-Edge-Speech-Enhancement)
 
 </div>
 
----
-
 ## About
 
-I’m an **Electronics and Communication Engineering undergraduate at NIT Goa** building across the hardware–software boundary.
+I’m an Electronics and Communication Engineering undergraduate interested in the boundary between **digital hardware, embedded systems, signal processing, and machine learning**. My long-term direction is semiconductor and deep-tech engineering.
 
-My current direction is **digital systems, FPGA/RTL design, embedded systems, and edge AI**, with a long-term interest in **semiconductor and deep-tech engineering**.
+I like to take an idea through the engineering loop:
 
-I learn by turning concepts into working systems:
+`Understand` → `Implement` → `Simulate` → `Measure` → `Debug` → `Document`
 
-**understand → implement → simulate → measure → debug → document**
+## Focus Areas
 
----
+| Digital Hardware | Embedded Systems | Edge AI & ML |
+|:---|:---|:---|
+| Verilog RTL | Arduino / C++ | Python / NumPy |
+| Combinational & sequential logic | Sensor interfaces | scikit-learn |
+| Testbenches & simulation | I²C / serial | PyTorch / ONNX |
+| Quartus Prime / ModelSim | PlatformIO | Speech & signal processing |
 
-## What I Build
+## Featured Projects
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 01 · Digital Hardware
+### 01 / Digital Design
+**[DSD Verilog](https://github.com/prabhatkulkarni/DSD_verilog)**
 
-- Verilog RTL
-- Combinational & sequential logic
-- Structural & dataflow modelling
-- Testbenches & simulation
-- FPGA workflows
-- Quartus Prime
-- ModelSim
+RTL exercises spanning combinational logic, structural/dataflow modelling, adders, counters, and multiplexers. The repository is organized around implementation and simulation.
+
+`Verilog` `RTL` `ModelSim` `Quartus`
 
 </td>
 <td width="50%" valign="top">
 
-### 02 · Edge AI & ML
+### 02 / Edge AI
+**[SIH — DFNet3 Speech Enhancement](https://github.com/prabhatkulkarni/SIH-DFNet3-Edge-Speech-Enhancement)**
 
-- Python
-- NumPy / pandas
-- scikit-learn
-- PyTorch
-- Neural networks from scratch
-- Speech enhancement
-- ONNX / efficient inference
+Hindi-focused DeepFilterNet3 fine-tuning, evaluation, ONNX export, and validation against PyTorch. Raspberry Pi 5 deployment and real-time benchmarks remain planned, not claimed as completed.
+
+`Python` `PyTorch` `ONNX` `Audio`
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### 03 · Embedded Systems
+### 03 / Embedded Hardware
+**[Arduino Ultrasonic Monitor](https://github.com/prabhatkulkarni/Ultrasonic-Sensor)**
 
-- C / C++
-- Arduino
-- PlatformIO
-- Sensors & peripherals
-- I²C / serial interfaces
-- Hardware + software integration
+Distance sensing with HC-SR04, DHT11 temperature input, an I²C LCD, LED status indicators, and Python serial plotting.
+
+`Arduino` `C++` `Sensors` `PlatformIO`
 
 </td>
 <td width="50%" valign="top">
 
-### 04 · Foundations
+### 04 / Machine Learning
+**[Titanic Survival Prediction](https://github.com/prabhatkulkarni/Titanic-Survival-Prediction)**
 
-- Digital electronics
-- Signal processing
-- Machine learning
-- Deep learning
-- Computer architecture
-- Semiconductor technology
+An end-to-end classification workflow featuring preprocessing pipelines, feature engineering, eight model comparisons, and evaluation beyond accuracy alone.
+
+`Python` `pandas` `scikit-learn`
 
 </td>
 </tr>
 </table>
 
----
-
-## Selected Projects
-
-### [DSD Verilog](https://github.com/prabhatkulkarni/DSD_verilog)
-**Digital System Design · Verilog · RTL · ModelSim · Quartus**
-
-A growing collection of RTL implementations covering combinational logic, sequential circuits, structural/dataflow modelling, multiplexers, and simulation.
-
-**Why it matters:** demonstrates progression from digital logic fundamentals toward practical RTL design and verification.
-
----
-
-### [SIH — DFNet3 Edge Speech Enhancement](https://github.com/prabhatkulkarni/SIH-DFNet3-Edge-Speech-Enhancement)
-**Python · PyTorch · Speech Processing · ONNX · Edge AI**
-
-An edge-oriented speech-enhancement project built around DeepFilterNet3, including model experimentation, evaluation, and deployment-oriented work.
-
-**Why it matters:** combines machine learning with signal processing and resource-conscious inference.
-
----
-
-### [Ultrasonic Sensor](https://github.com/prabhatkulkarni/Ultrasonic-Sensor)
-**Arduino · C++ · HC-SR04 · DHT11 · I²C LCD**
-
-An embedded sensing project combining distance measurement, temperature compensation, display output, LED status indication, and serial visualization.
-
-**Why it matters:** demonstrates complete hardware-to-software integration rather than isolated code.
-
----
-
-### [Titanic Survival Prediction](https://github.com/prabhatkulkarni/Titanic-Survival-Prediction)
-**Python · pandas · scikit-learn · Machine Learning**
-
-An end-to-end ML workflow using preprocessing pipelines, feature engineering, multiple classifiers, and model evaluation.
-
-**Why it matters:** demonstrates disciplined ML experimentation and model comparison.
-
----
-
-## Technical Stack
+## GitHub at a Glance
 
 <div align="center">
 
-**HDL / Hardware**
-
-Verilog · Quartus Prime · ModelSim · FPGA
-
-**Programming**
-
-Python · C · C++
-
-**ML / AI**
-
-NumPy · pandas · scikit-learn · PyTorch · ONNX
-
-**Embedded**
-
-Arduino · PlatformIO · I²C · Sensors
-
-**Engineering Tools**
-
-Git · GitHub · Linux · VS Code
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=prabhatkulkarni&show_icons=true&hide_border=true&rank_icon=github&theme=transparent" alt="GitHub profile statistics" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=prabhatkulkarni&layout=compact&hide_border=true&theme=transparent&langs_count=6" alt="Most-used languages across public repositories" />
 
 </div>
 
----
+<sub>These cards are generated by a third-party service and may occasionally be unavailable or delayed.</sub>
 
-## Current Learning Path
+## Tools I Use
+
+**Hardware / RTL** · Verilog HDL · Quartus Prime · ModelSim · FPGA workflows
+
+**Programming** · Python · C · C++
+
+**ML / Data** · NumPy · pandas · scikit-learn · PyTorch · ONNX Runtime
+
+**Embedded / Engineering** · Arduino · PlatformIO · Git · Linux · VS Code
+
+## Learning Direction
 
 ```text
-Digital Systems
-    │
-    ├── RTL Design
-    ├── Verification
-    ├── FPGA
-    └── Computer Architecture
-            │
-            ▼
-Embedded Systems ────────► Edge AI
-            │                 │
-            └────────┬────────┘
-                     ▼
-              Hardware-aware
-               intelligent
-                 systems
-                     │
-                     ▼
-              Semiconductor /
-                 Deep Tech
+DIGITAL LOGIC
+     ↓
+RTL DESIGN + VERIFICATION
+     ↓
+FPGA / COMPUTER ARCHITECTURE
+     ↓
+EMBEDDED + HARDWARE-AWARE AI
+     ↓
+SEMICONDUCTOR / DEEP-TECH SYSTEMS
 ```
-
----
 
 ## Engineering Principles
 
-> **Fundamentals first. Implementation second. Verification always.**
+- **Understand the fundamentals.** Know why a circuit or model behaves the way it does.
+- **Verify the work.** Use testbenches for RTL and appropriate metrics for ML experiments.
+- **Report limits honestly.** Separate measured results from prototypes and future plans.
+- **Document for reuse.** Make it possible for another person to understand and run a project.
 
-I care about understanding *why* a system works, not only making it run once.
-
-- Write RTL instead of treating HDL as black-box code.
-- Test designs instead of trusting simulation by inspection.
-- Measure ML models instead of reporting a single accuracy number.
-- Document experiments and limitations.
-- Keep unfinished work clearly separated from completed work.
-
----
-
-## Beyond the Code
-
-My long-term goal is to work on **deep-tech systems at the intersection of semiconductor hardware, embedded computing, and intelligent algorithms**.
-
-I’m especially interested in the path from:
-
-**transistors → digital systems → processors → embedded platforms → intelligent edge systems**
-
----
+## Explore
 
 <div align="center">
 
-### Building fundamentals today. Building deep-tech systems tomorrow.
+**[All repositories →](https://github.com/prabhatkulkarni?tab=repositories)**
 
-**[Explore my repositories →](https://github.com/prabhatkulkarni?tab=repositories)**
+*Building fundamentals today. Working toward hardware-aware intelligent systems.*
 
 </div>
