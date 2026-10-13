@@ -1,129 +1,56 @@
-![Prabhat Kulkarni — Digital Design, Embedded Systems, Edge AI](assets/profile-header.svg)
+[README.md](https://github.com/user-attachments/files/33395147/README.md)
+<p align="center">
+  <img src="assets/banner.png" alt="Prabhat Kulkarni: TinyML, Edge AI, Embedded Systems" width="100%">
+</p>
 
-<div align="center">
+ECE student at NIT Goa, building toward **TinyML, edge AI and embedded systems**. I like taking models out of notebooks and getting them to run on small, constrained hardware.
 
-**ECE Undergraduate · NIT Goa**
+---
 
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/prabhatkulkarni)
-[![Digital Design](https://img.shields.io/badge/Focus-Digital%20Design-2563eb?style=flat-square)](https://github.com/prabhatkulkarni/DSD_verilog)
-[![Edge AI](https://img.shields.io/badge/Focus-Edge%20AI-0f766e?style=flat-square)](https://github.com/prabhatkulkarni/SIH-DFNet3-Edge-Speech-Enhancement)
+## 🔧 Featured project
 
-</div>
+### [SIH-DFNet3: Edge Speech Enhancement](https://github.com/prabhatkulkarni/SIH-DFNet3-Edge-Speech-Enhancement)
+Fine-tuned **DeepFilterNet3** for Hindi speech enhancement, exported to **ONNX**, targeting **Raspberry Pi 5**. Built for Smart India Hackathon.
 
-## About
+| Stage | Status |
+| --- | --- |
+| Fine-tuning on Hindi speech + diverse noise (DEMAND, ESC-50, MS-SNSD) | ✅ Done |
+| Test-set evaluation at ~0 dB input SNR | SDR 2.92 dB · STOI 0.69 |
+| ONNX export, validated against PyTorch | ✅ Matches to ~1e-7 error |
+| Raspberry Pi 5 latency / RTF benchmark | 🟡 Pending hardware |
+| INT8 quantization | ⚪ Planned |
 
-I’m an Electronics and Communication Engineering undergraduate interested in the boundary between **digital hardware, embedded systems, signal processing, and machine learning**. My long-term direction is semiconductor and deep-tech engineering.
+Stack: `Python` · `PyTorch` · `ONNX Runtime` · `Google Colab`
 
-I like to take an idea through the engineering loop:
+---
 
-`Understand` → `Implement` → `Simulate` → `Measure` → `Debug` → `Document`
+## 🛠️ Tech I work with
 
-## Focus Areas
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white)
+![Verilog](https://img.shields.io/badge/Verilog-4B5563?style=flat)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
+![ONNX](https://img.shields.io/badge/ONNX-005CED?style=flat&logo=onnx&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikitlearn&logoColor=white)
+![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-A22846?style=flat&logo=raspberrypi&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
 
-| Digital Hardware | Embedded Systems | Edge AI & ML |
-|:---|:---|:---|
-| Verilog RTL | Arduino / C++ | Python / NumPy |
-| Combinational & sequential logic | Sensor interfaces | scikit-learn |
-| Testbenches & simulation | I²C / serial | PyTorch / ONNX |
-| Quartus Prime / ModelSim | PlatformIO | Speech & signal processing |
+---
 
-## Featured Projects
+## 🧭 What I'm working on
 
-<table>
-<tr>
-<td width="50%" valign="top">
+- Getting DFNet3 running in real time on a Raspberry Pi 5, then optimizing it (quantization, streaming)
+- Digital design in Verilog
+- Strengthening my deep learning fundamentals, with a focus on models that fit on edge devices
 
-### 01 / Digital Design
-**[DSD Verilog](https://github.com/prabhatkulkarni/DSD_verilog)**
+## 🎯 Where I'm headed
 
-RTL exercises spanning combinational logic, structural/dataflow modelling, adders, counters, and multiplexers. The repository is organized around implementation and simulation.
+I want to build deep tech products at the edge: ML that runs on-device, with low latency and no cloud dependency. I care about the engineering and the business side of getting that into people's hands.
 
-`Verilog` `RTL` `ModelSim` `Quartus`
+---
 
-</td>
-<td width="50%" valign="top">
+## 📫 Connect
 
-### 02 / Edge AI
-**[SIH — DFNet3 Speech Enhancement](https://github.com/prabhatkulkarni/SIH-DFNet3-Edge-Speech-Enhancement)**
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/prabhat-kulkarni-241b0a380)
 
-Hindi-focused DeepFilterNet3 fine-tuning, evaluation, ONNX export, and validation against PyTorch. Raspberry Pi 5 deployment and real-time benchmarks remain planned, not claimed as completed.
-
-`Python` `PyTorch` `ONNX` `Audio`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 03 / Embedded Hardware
-**[Arduino Ultrasonic Monitor](https://github.com/prabhatkulkarni/Ultrasonic-Sensor)**
-
-Distance sensing with HC-SR04, DHT11 temperature input, an I²C LCD, LED status indicators, and Python serial plotting.
-
-`Arduino` `C++` `Sensors` `PlatformIO`
-
-</td>
-<td width="50%" valign="top">
-
-### 04 / Machine Learning
-**[Titanic Survival Prediction](https://github.com/prabhatkulkarni/Titanic-Survival-Prediction)**
-
-An end-to-end classification workflow featuring preprocessing pipelines, feature engineering, eight model comparisons, and evaluation beyond accuracy alone.
-
-`Python` `pandas` `scikit-learn`
-
-</td>
-</tr>
-</table>
-
-## GitHub at a Glance
-
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=prabhatkulkarni&show_icons=true&hide_border=true&rank_icon=github&theme=transparent" alt="GitHub profile statistics" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=prabhatkulkarni&layout=compact&hide_border=true&theme=transparent&langs_count=6" alt="Most-used languages across public repositories" />
-
-</div>
-
-<sub>These cards are generated by a third-party service and may occasionally be unavailable or delayed.</sub>
-
-## Tools I Use
-
-**Hardware / RTL** · Verilog HDL · Quartus Prime · ModelSim · FPGA workflows
-
-**Programming** · Python · C · C++
-
-**ML / Data** · NumPy · pandas · scikit-learn · PyTorch · ONNX Runtime
-
-**Embedded / Engineering** · Arduino · PlatformIO · Git · Linux · VS Code
-
-## Learning Direction
-
-```text
-DIGITAL LOGIC
-     ↓
-RTL DESIGN + VERIFICATION
-     ↓
-FPGA / COMPUTER ARCHITECTURE
-     ↓
-EMBEDDED + HARDWARE-AWARE AI
-     ↓
-SEMICONDUCTOR / DEEP-TECH SYSTEMS
-```
-
-## Engineering Principles
-
-- **Understand the fundamentals.** Know why a circuit or model behaves the way it does.
-- **Verify the work.** Use testbenches for RTL and appropriate metrics for ML experiments.
-- **Report limits honestly.** Separate measured results from prototypes and future plans.
-- **Document for reuse.** Make it possible for another person to understand and run a project.
-
-## Explore
-
-<div align="center">
-
-**[All repositories →](https://github.com/prabhatkulkarni?tab=repositories)**
-
-*Building fundamentals today. Working toward hardware-aware intelligent systems.*
-
-</div>
+Open to collaborating on edge AI, embedded and hackathon projects.
